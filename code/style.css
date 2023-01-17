@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+body {
+  background: #EAEBEC;
+}
+
+.calc-body {
+  width: 300px;
+  margin-left: auto;
+  min-height: 300px;
+  border: solid 1px #707780;
+  box-shadow: 0 8px 50px -7px rgb(65, 65, 65);
+  background-color: #3C4857;
+}
+
+.upperDisplayBox {
+  background-color: #3C4857;
+  width: 100%;
+  height: 40px;
+  text-align: right;
+  vertical-align: bottom;
+  color: #d6d6d6;
+  font-size: 21px;
+  padding: 6px;
+  border-width: 0;
+  border-bottom: dotted 1px;
+  border-color: #48bbcf;
+  font-family: 'Roboto', sans-serif;
+}
+
+.lowerDisplayBox {
+  display: flex;
+  background-color: #3C4857;
+  width: 100%;
+  font-size: 45px;
+  text-align: right;
+  box-sizing: 100px;
+  color: #fff;
+  border-width: 0;
+  line-height: 100px;
+  font-family: 'Roboto', sans-serif;
+  padding: 10px;
+  height: 80px;
+  display: table-cell;
+  vertical-align: bottom;
+  word-wrap: break-word;
+  word-break: break-all;
+  flex-direction: column;
+}
+
+
+.operationButton,
+.buttonC,
+.buttonCE,
+.buttonRoot {
+  font-family: 'Roboto', sans-serif;
+  color: #AEB3BA;
+  background: #404D5E;
+  width: 70px;
+  height: 70px;
+  padding: 0;
+  display: inline-block;
+  font-size: 25px;
+  text-align: center;
+  vertical-align: middle;
+  margin-right: -4px;
+  border-right: solid 2px #3C4857;
+  border-bottom: solid 2px #3C4857;
+  transition: all 0.2s ease-in-out;
+  border-width: 0;
+}
+
+.buttonNumber,
+.buttonPoint,
+.buttonEqual {
+
+  width: 70px;
+  height: 70px;
+  background: #425062;
+  color: #fff;
+  display: inline-block;
+  font-size: 25px;
+  text-align: center;
+  vertical-align: middle;
+  margin-right: -4px;
+  font-family: 'Roboto', sans-serif;
+  transition: all 0.2s ease-in-out;
+  border-width: 0;
+}
+
+.buttonEqual {
+  background: #48bbcf;
+  width: 100%;
+}
+
+
+.buttonC,
+.buttonCE {
+  color: #D95D4E;
+  background: #404D5E;
+}
+
+
+.buttonPoint:hover,
+.buttonEqual:hover,
+.buttonNumber:hover {
+  background: #E0B612;
+}
+
+.operationButton:hover,
+.buttonC:hover,
+.buttonCE:hover,
+.buttonRoot:hover {
+  background: #E0B612;
+  color: #fff;
+}
+
+.buttonEqual:hover {
+  transform: rotate(4deg);
+}
