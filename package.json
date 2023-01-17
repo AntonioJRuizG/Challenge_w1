@@ -1,0 +1,14 @@
+{
+  "name": "230117",
+  "version": "1.0.0",
+  "description": "Challenge W1D1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Git"
+  ],
+  "author": "Antonio Ruiz",
+  "license": "ISC"
+}
